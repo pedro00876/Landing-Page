@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,9 +10,9 @@
 }
 
 :root {
-    --red:#d63a25;
-    --white:#fff;
-    --dark:#1e1c2a;
+    --red: #d63a25;
+    --white: #fff;
+    --dark: #1e1c2a;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
     color: var(--dark);
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -56,8 +56,8 @@ body {
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
-    
-    
+
+
 }
 
 .navigation ul li a:hover {
@@ -73,18 +73,19 @@ body {
     cursor: pointer;
     display: none;
 }
+
 .menu .bar {
     display: block;
     width: 28px;
     height: 3px;
     border-radius: 3px;
-    background: var(--dark) ;
+    background: var(--dark);
     margin: 5px auto;
     transition: all 0.3s;
 }
 
 .menu .bar:nth-child(1),
-.menu .bar:nth-child(3){
+.menu .bar:nth-child(3) {
     background: var(--red);
 }
 
@@ -130,6 +131,6 @@ body {
     background: #fc4c35;
 }
 
-.home-img img{
+.home-img img {
     width: 100%;
 }
